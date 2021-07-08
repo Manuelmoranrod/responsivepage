@@ -1,0 +1,61 @@
+body {
+    padding: 10px;
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(250, 78, 78);
+    height: 40%;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+main{
+    background-color: rosybrown;
+    margin: 5px;
+    padding: 5px;
+}
+
+.hero{
+    background-color: rgb(199, 136, 90);
+    margin: 5px;
+    padding: 5px;
+}
+
+.sidebar{
+    background-color: springgreen;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer{
+    background-color: slategray;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media (min-width: 600px) {
+    .container-content{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1100px) {
+    .container-content{
+        justify-content: center;
+    }
+    .sidebar{
+        width: 20%;
+    }
+    main{
+        width: 60%;
+    }
+}
